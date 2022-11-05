@@ -1,0 +1,85 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+
+}
+body{
+    justify-content: center;
+    display: flex;
+   background-color: rgb(216, 223, 231);
+    align-items: center;
+
+}
+.drop1{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    background:transparent;
+
+    top: 200px;
+    border-radius: 38% 62% 41% 59% / 19% 40% 60% 81% ;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px;
+}
+
+.drop1::before{
+    content: '';
+    position: absolute;
+    height: 25px;
+    width: 25px;
+    border-radius: 38% 62% 41% 59% / 19% 40% 60% 81% ;
+    background: #fff;
+    top: 25px;
+    left: 10px;
+   
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1p
+}
+
+.drop2{
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    background:transparent;
+    top: 250px;
+    right: 700px;
+    border-radius: 38% 62% 41% 59% / 19% 40% 60% 81% ;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px;
+}
+
+.drop2::before{
+    content: '';
+    position: absolute;
+    height: 10px;
+    width:10px;
+    border-radius: 38% 62% 41% 59% / 19% 40% 60% 81% ;
+    background: #fff;
+    top: 25px;
+    left: 10px;
+   
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1p
+}
+
+.drop3{
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    background:transparent;
+    top: 350px;
+    right: 600px;
+    border-radius: 38% 62% 41% 59% / 19% 40% 60% 81% ;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px;
+}
+
+.drop3::before{
+    content: '';
+    position: absolute;
+    height: 25px;
+    width: 25px;
+    border-radius: 38% 62% 41% 59% / 19% 40% 60% 81% ;
+    background: #fff;
+    top: 25px;
+    left: 10px;
+   
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1p
+}
+
